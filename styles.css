@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;   
+    font-family: Clash Display;
+}
+
+body
+{
+    background-color: #191D32;
+    color: #EFD6AC;
+    margin-top: 30px;
+}
+
+main
+{
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    /* border: 1px solid rgb(218, 57, 57); */
+
+}
+
+.container
+{
+    /* border: 1px solid rgb(42, 102, 182); */
+    height: 70vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game
+{
+    /* border: 1px solid green; */
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+}
+
+.box
+{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #453A49;
+    border: none;
+    border-radius: 5%;
+    font-size: 15vmin;
+    color: #EFD6AC;
+
+}
+.buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 55vmin;
+    margin: auto;
+}
+
+#reset_game
+{
+    height: 5vmin;
+    width: 25vmin;
+    color: #191D32;
+    background-color: #DAFEB7;
+    border: none;
+    border-radius: 10px;
+    font-size: 3vmin;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#new_game
+{
+    height: 5vmin;
+    width: 25vmin;
+    color: #DAFEB7;
+    background-color: transparent;
+    border: 2px solid #DAFEB7;
+    border-radius: 10px;
+    font-size: 3vmin;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.score
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 50vmin;
+    
+    margin: auto;
+}
+.score p
+{
+
+    font-size: 20px;
+}
+
+.hidden
+{
+    display: none;
+}
+.win_msg
+{
+    font-weight: 400;
+    font-size: 40px;
+    color: #0f9655;
+}
